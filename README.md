@@ -10,6 +10,8 @@ Siphonator is a command line tool written in Python, designed to streamline the 
 
 Latest commit to GitHub branch 'master'.
 
+Siphonator is under **HEAVY** development right now, expect lack of documentation, major bugs and missing functionality.
+
 **Usage**
 ```
 docker run -d \
