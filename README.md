@@ -27,6 +27,8 @@ docker run -d \
     -v <path for data files>:/data \
     -v /etc/localtime:/etc/localtime:ro \
     -e TZ=Etc/<region> \
+    -e HEALTHCHECK_COMMAND=<command> \
+    -e HEALTHCHECK_ACTION=<action> \
     -e UMASK=<umask for created files> \
     -e PUID=<uid for user> \
     -e PGID=<gid for user> \
